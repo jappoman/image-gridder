@@ -34,7 +34,7 @@ def draw_grid(image_path):
     line_color = 'red'
     font_size = font_size = int(pixels_per_cm * 0.4)
 
-     # Carica un font con la dimensione desiderata
+    # Carica un font con la dimensione desiderata
     font = ImageFont.truetype("arial.ttf", font_size)
 
     # Disegna la griglia con numerazione
@@ -44,7 +44,7 @@ def draw_grid(image_path):
             y = (15 - i) * square_size
             draw.line([(x, 0), (x, size_in_pixel)], fill=line_color, width=line_width)
             draw.line([(0, y), (size_in_pixel, y)], fill=line_color, width=line_width)
-            draw.text((x + 2, y + 2), f'{i},{j}', fill=line_color, font=font)
+            draw.text((x + 2, y + 2), f'{j},{i}', fill=line_color, font=font)  # Scambia j con i
 
     # Ottieni il percorso dell'immagine di origine
     image_dir = os.path.dirname(image_path)
