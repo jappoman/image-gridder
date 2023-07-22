@@ -1,4 +1,8 @@
-## Image Gridder
+<div align="center">
+  <h3 align="center">Image Gridder</h3>
+</div>
+
+## Description
 
 Image Gridder is a Python program that takes an image file as input and adds a grid of 16x16 with numbering to it. The resulting image is saved in the same folder as the original image.
 
