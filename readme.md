@@ -17,6 +17,3 @@ $ python image-gridder.py
 Insert image path: /path/to/image.jpg
 The image was saved as: /path/to/gridded_image.png
 ```
-
-License
-Image Gridder is licensed under the MIT License. See the LICENSE file for more information.
