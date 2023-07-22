@@ -1,5 +1,5 @@
 <div align="center">
-  <h3 align="center">Image Gridder</h3>
+  <h1 align="center">Image Gridder</h1>
 </div>
 
 ## Description
