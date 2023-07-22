@@ -3,7 +3,9 @@ Image Gridder is a Python program that takes an image file as input and adds a g
 
 Installation
 To use Image Gridder, you need to have Python 3 and the Pillow library installed. You can install Pillow using pip:
-``` pip install Pillow ```
+```
+pip install Pillow
+```
 
 Usage
 To use Image Gridder, run the image-gridder.py file in a Python environment. The program will ask you to input the path of the image file you want to grid. Once you provide the path, the program will create a new image file with the grid and numbering added.
